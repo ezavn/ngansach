@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="hero bg-[url('../public/images/hero-mb.png')] md:bg-[url('../public/images/hero3.png')] bg-center bg-no-repeat bg-cover">
+    <section className="hero bg-[url('../public/images/herons-mobile.png')] md:bg-[url('../public/images/herons.png')] bg-center bg-no-repeat bg-cover">
       <div className="page-container relative h-[1050px] md:h-[600px]">
         <img
           className="hidden md:inline-block absolute right-[40px] top-[85px] w-[60px] h-[60px] gold"

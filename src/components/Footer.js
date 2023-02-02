@@ -27,12 +27,11 @@ const Footer = () => {
             Firm Huấn luyện doanh nghiệp số <br /> 1 Việt Nam
           </p>
           <p className="text-[18px] mb-[10px]">
-            Địa chỉ: <span className="font-semibold">CBD BUILDING</span>, 90-92{" "}
-            <br /> Lê Thị Riêng, <br />
-            P. Bến Thành, Q.1, TP.HCM
+            Địa chỉ: Tầng 15, Tháp B, Toà Nhà Viettel, <br /> 285 CMT8, P.12,
+            Q.10, TP.HCM
           </p>
           <p className="text-[18px] mb-[10px]">
-            Email: <br /> info@actioncoachcbd.com
+            Email: info@actioncoachcbd.com
           </p>
           <p className="text-[18px] mb-[10px]">
             Hotline: <span className="font-semibold">1800 8087</span>

@@ -25,7 +25,7 @@ const PopupRegister = () => {
     message: "",
     sourceId: f_source,
     rid: f_rid,
-    title: "CRM_FORM_NS_06-07/01/2023",
+    title: "CRM_FORM_NS_25/02/2023",
   });
   const handleChange = (e) => {
     setData({
@@ -56,7 +56,7 @@ const PopupRegister = () => {
           id: result.result,
           rows: [
             {
-              PRODUCT_ID: 16354,
+              PRODUCT_ID: 16488,
               PRICE: 0,
               QUANTITY: 1,
               TAX_INCLUDED: "Y",

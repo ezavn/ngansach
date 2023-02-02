@@ -8,7 +8,7 @@ const Countdown = () => {
     });
   };
   const timediff = Math.floor(
-    new Date("January 06,2023 00:00:00").getTime() - new Date().getTime()
+    new Date("February 25,2023 00:00:00").getTime() - new Date().getTime()
   );
   const [deadline, setDeadline] = useState({
     days: "00",
