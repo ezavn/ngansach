@@ -5,13 +5,11 @@ const Coach = () => {
   return (
     <section
       id="coach"
-      className="Coach bg-[url('../public/images/bg-green.png')] md:bg-[url('../public/images/bg-coach.png')] bg-center bg-no-repeat bg-cover py-section"
+      className="Coach bg-[url('../public/images/bg-green.png')] md:bg-[url('../public/images/bg-green.png')] bg-center bg-no-repeat bg-cover py-section"
     >
-      <div className="max-w-[1330px] mx-auto">
-        <Heading data-aos="fade-down" data-aos-duration="1000">
-          DIỄN GIẢ TẠI SỰ KIỆN
-        </Heading>
-        <div className="relative hidden md:flex">
+      <div className="max-w-[1330px] mx-[15px] xl:mx-auto">
+        <Heading>DIỄN GIẢ TẠI SỰ KIỆN</Heading>
+        <div className="relative flex-col-reverse hidden xl:flex-row md:flex">
           <div data-aos="fade-left" data-aos-duration="1000" className="flex-1">
             <p className="text-[25px] font-medium">COACH</p>
             <h3 className="text-[48px] font-medium leading-[1] mb-[15px]">
@@ -97,10 +95,13 @@ const Coach = () => {
               </ul>
             </div>
           </div>
-          <div className="flex-1"></div>
-          {/* <div className="absolute top-0 right-0">
-            <img className="w-[700px]" src="/images/coach-rita.png" alt="" />
-          </div> */}
+          <div className="flex items-center justify-center">
+            <img
+              className="md:w-[300px] lg:w-[500px] xl:w-[700px]"
+              src="/images/coach-rita.png"
+              alt=""
+            />
+          </div>
         </div>
         <div className="flex flex-col items-center justify-center md:hidden">
           <div>

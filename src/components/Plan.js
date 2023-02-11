@@ -98,14 +98,10 @@ const PlanItemMobile = ({ img, desc, reverse }) => {
         reverse ? "flex-col md:flex-row-reverse gap-x-[20px]" : ""
       } mb-[30px] md:mb-0`}
     >
-      <div data-aos="fade-up" data-aos-duration="1000" className="flex-1">
+      <div className="flex-1">
         <p className="text-justify">{desc}</p>
       </div>
-      <div
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        className="mb-[15px] md:mb-0 md:w-[580px] flex-shrink-0"
-      >
+      <div className="mb-[15px] md:mb-0 md:w-[580px] flex-shrink-0">
         <img className="object-cover w-full" src={img} alt="" />
       </div>
     </div>
