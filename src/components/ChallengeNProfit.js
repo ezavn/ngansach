@@ -72,7 +72,7 @@ const ChallengeNProfit = () => {
         <Heading data-aos="fade-down" data-aos-duration="1000">
           LỢI ÍCH CỦA VIỆC LẬP & KIỂM SOÁT NGÂN SÁCH
         </Heading>
-        <div className="hidden md:grid md:grid-cols-5 gap-x-[55px]">
+        <div className="hidden md:grid md:grid-cols-3 gap-x-[70px] max-w-[1000px] mx-auto mb-[70px]">
           <ProfitItem
             data-aos="zoom-in"
             data-aos-duration="1000"
@@ -99,6 +99,8 @@ const ChallengeNProfit = () => {
           >
             Gắn kết đội <br /> ngũ thực thi <br /> xuất sắc
           </ProfitItem>
+        </div>
+        <div className="hidden md:grid md:grid-cols-2 gap-x-[70px] max-w-[666px] mx-auto">
           <ProfitItem
             data-aos="zoom-in"
             data-aos-duration="1000"
