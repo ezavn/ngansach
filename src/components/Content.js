@@ -99,7 +99,7 @@ const Content = () => {
             <img
               className="ticket"
               onClick={() => setShow(!show)}
-              src="/images/coupon.png"
+              src="/images/ngansach-deal2.png"
               alt=""
             />
           </div>
